@@ -1,4 +1,4 @@
-#ABRA NO GITHUB COMO RAW:
+#ABRA O REDME.MD COMO RAW PARA UMA MELHOR FORMATAÇÃO DO TEXTO:
 Fiz uma adaptação desse desafio, em vez de utililizar o python(que também fiz), utilizei o html,css e javascript, como backend utilizei o node.js:
 ![image](https://github.com/user-attachments/assets/3b8574f0-fac4-4264-a05e-0494b9a10730)
 Passos:
