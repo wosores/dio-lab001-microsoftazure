@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto - E-Commerce na Cloud</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cadastro de Produto - E-Commerce na Cloud</h1>
+    <h2>Adicione um novo produto ao nosso catálogo:</h2>
+
+    <form id="productForm">
+        <div class="form-row">
+            <label for="productName">Nome do Produto:</label>
+            <input type="text" id="productName" placeholder="Ex: Camiseta de Algodão" required>
+        </div>
+        <div class="form-row">
+            <label for="price">Preço (R$):</label>
+            <input type="number" id="price" min="0.00" step="0.01" placeholder="Ex: 29.90" required>
+        </div>
+        <div class="form-row">
+            <label for="description">Descrição do Produto:</label>
+            <textarea id="description" placeholder="Ex: Camiseta confortável de algodão orgânico, ideal para o dia a dia." required></textarea>
+        </div>
+        <div class="form-row">
+            <label for="image">Imagem do Produto:</label>
+            <input type="file" id="image" accept="image/png, image/jpeg">
+        </div>
+        <button type="submit">Cadastrar Produto</button>
+        <div id="formMessage" class="message"></div>
+    </form>
+
+    <h2>Catálogo de Produtos</h2>
+    <button id="loadProducts">Carregar Catálogo de Produtos</button>
+    <div id="productCatalog" class="catalog">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
