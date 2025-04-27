@@ -45,6 +45,7 @@ cd site
 npm init -y
 npm install express
 npm install multer
+npm install @azure/storage-blob
 npm install cors
 npm install mssql
 node server.js
